@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 samoleesting
 
 123456789
@@ -5,3 +6,6 @@ samoleesting
 963852741
 
 789456123
+=======
+samoleesting
+>>>>>>> parent of f09837c... second line
