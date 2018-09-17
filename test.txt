@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 samoleesting
 
 123456789
@@ -6,9 +5,13 @@ samoleesting
 
 963852741
 
+<<<<<<< HEAD
 789456123
 =======
 samoleesting
 >>>>>>> parent of f09837c... second line
 =======
 >>>>>>> parent of 6173640... 3rd line
+=======
+789456123
+>>>>>>> parent of 8b81a65... 1st revert
