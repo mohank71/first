@@ -1,14 +1,2 @@
-<<<<<<< HEAD
-samoleesting
+1. 1st text ine
 
-123456789
-<<<<<<< HEAD
-
-963852741
-
-789456123
-=======
-samoleesting
->>>>>>> parent of f09837c... second line
-=======
->>>>>>> parent of 6173640... 3rd line
