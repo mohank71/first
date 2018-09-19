@@ -1,0 +1,80 @@
+1. Install JDK
+
+2. Install path: C:\Program Files\Java\jdk1.8.0_181\
+3. Install GIT
+
+4. Extract Maven
+5. Extract Ant
+6. Extract gradle
+
+7. Copy all three extracted folders to c:\
+
+4. Install Jenkins
+
+Instllation path: C:\Program Files (x86)\Jenkins\
+
+Post installation, askes for Admn password
+
+7d12c7cfb6d445fbab0af8ac2481630c from C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword
+
+Install Tomcat
+
+Provide username/password of Jenkins
+
+Go to Manage Plugins:
+
+Install "DeploytoContainer Plugin" for Freestyle
+
+Select the project name and go to configure option:
+
+1. Provide the GIT URL https://github.com/mohank71/Maven-Demo  
+
+<<<< Source code management  >>>>>
+
+Ghoose name appropriately as per the project name
+
+In BUILS, Goals , input as "INSTALL"
+
+In POST-BUILD ACTIONS,
+
+WAR / EAR files ==>  **/*.war
+
+Gcontext path  ==> <Give relevant name>    { Folder name will be created in Apache}
+
+In containers, give the Tomcat admin credential & Tomcat URL
+
+http://localhost:8010/
+
+
+
+============================================
+
+Install Tomcat Apache in the default path C:\Program Files\Apache Software Foundation\Tomcat 8.5
+
+<<<<<<<<<<<<<<<<<<<<  Open server.xml   >>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Change port no# from 8080 to 8010
+ <Connector port="8010" protocol="HTTP/1.1"
+
+<<<<<<<<<<<<<<<<<<<<     Open users.xml>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<user username="admin1" password="admin1" roles="manager-gui" />
+
+Copy line1 and edit as in Line2;
+<user username="admin" password="admin" roles="manager-script,manager-gui" />
+
+Manager App opened:
+
+
+
+============================================
+
+
+
+Verify the background info in http://localhost:8080/job/Mohantest/console  (Mohantest is the project new item name)
+
+
+
+
+
+
